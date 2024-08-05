@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>El Mundo de las Mascotas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            word-spacing: 0.1em;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8ecae6;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .large-text {
+            font-size: 1.5em;
+        }
+        .medium-text {
+            font-size: 1.2em;
+        }
+        .small-text {
+            font-size: 0.9em;
+        }
+        #special-font {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        aside {
+            background-color: #edf2f4;
+            padding: 45px;
+            border-left: 4px solid #8ecae6;
+            margin: 20px;
+            box-sizing: border-box; 
+        }
+        footer {
+            background-color: #8ecae6;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            box-sizing: border-box; 
+        }
+        section {
+            margin-top:20px; 
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+        th {
+            background-color: #8ecae6;
+            color: white;
+        }
+        p, aside {
+            font-size: 1em;
+        }
+        table tr td ul {
+            padding-left: 20px;
+        }
+        table tr td ul li {
+            margin-bottom: 5px;
+        }
+        table tr td ul li a:hover {
+            color: #8ecae6;
+        }
+    </style>
+</head>
+<body>
+<header class="bg-info text-white text-center p-4">
+    <h1 class="large-text">El Mundo de las Mascotas</h1>
+</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mascotas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#perros">Perros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gatos">Gatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exoticos">Animales Exóticos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-nosotros">Sobre Nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="container mt-5 pt-5">
+    <h2 class="medium-text">Bienvenido a Nuestro Sitio</h2>
+    <p>En este sitio encontrarás información, consejos y recursos para el cuidado de tus mascotas. Desde perros y gatos hasta animales exóticos, tenemos todo lo que necesitas saber para mantener a tus amigos peludos felices y saludables.</p>
+</section>
+<section class="container">
+    <h2 class="medium-text">Tipos de Mascotas</h2>
+    <table class="table table-striped">
+        <tr>
+            <th>Tipo de Mascota</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+            <th>Enlaces Útiles</th>
+        </tr>
+        <tr>
+            <td id="perros">Perros</td>
+            <td>Los perros son compañeros leales y amorosos. Aquí encontrarás información sobre razas, cuidados, alimentación y entrenamiento.</td>
+            <td><img src="https://static.fundacion-affinity.org/cdn/farfuture/PVbbIC-0M9y4fPbbCsdvAD8bcjjtbFc0NSP3lRwlWcE/mtime:1643275542/sites/default/files/los-10-sonidos-principales-del-perro.jpg" alt="Perro" width="100"></td>
+            <td>
+                <ul>
+                    <li><a href="https://www.elespanol.com/curiosidades/mascotas/razas-perros-mas-populares-favoritas-mundo/660684048_0.html" target="_blank">Razas populares</a></li>
+                    <li><a href="https://www.dinersclub.com.ec/experiencias/diners-club/consejos-cuidar-perro" target="_blank">Cuidados básicos</a></li>
+                    <li><a href="https://www.santevet.es/articulo/como-alimentar-a-mi-perro" target="_blank">Alimentación adecuada</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td id="gatos">Gatos</td>
+            <td>Los gatos son independientes y cariñosos. Descubre cómo cuidar a tu gato, qué alimentos son los mejores y cómo mantenerlo entretenido.</td>
+            <td><img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2024/02/nombres-para-gatos-originales.jpg" alt="Gato" width="100"></td>
+            <td>
+                <ul>
+                    <li><a href="https://www.expertoanimal.com/las-10-razas-de-gatos-mas-populares-del-mundo-23177.html" target="_blank">Razas populares</a></li>
+                    <li><a href="https://www.20minutos.es/imagenes/animaleros/gatos/5160788-todos-los-cuidados-basicos-que-conocer-para-convivir-felizmente-con-gatos/2/" target="_blank">Cuidados básicos</a></li>
+                    <li><a href="https://www.purina.es/cuidados/gatos/comportamiento/juegos-y-juguetes-para-gatitos" target="_blank">Juguetes y entretenimiento</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td id="exoticos">Animales Exóticos</td>
+            <td>Desde reptiles hasta aves exóticas, aprende sobre los cuidados especiales que necesitan estos fascinantes animales.</td>
+            <td><img src="https://www.yaencontre.com/noticias/wp-content/uploads/2018/10/mascotas-erizos.jpg" alt="Animal exótico" width="100"></td>
+            <td>
+                <ul>
+                    <li><a href="https://nubika.es/noticias/conoce-cuales-son-los-animales-exoticos-domesticos/" target="_blank">Tipos de animales exóticos</a></li>
+                    <li><a href="https://hospitalveterinariodonostia.com/como-cuidar-animales-exoticos/" target="_blank">Hábitats y cuidados especiales</a></li>
+                    <li><a href="https://www.expertoanimal.com/alimentacion/dietas-equilibradas/animales-exoticos" target="_blank">Alimentación y salud</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</section>
+<aside class="container mt-5" id="sobre-nosotros">
+    <h3 class="small-text">Sobre Nosotros</h3>
+    <p id="special-font">Somos un equipo de amantes de los animales dedicados a proporcionar la mejor información y recursos para el cuidado de las mascotas. Si tienes alguna pregunta, no dudes en <a href="mailto:info@mundomascotas.com">contactarnos</a>.</p>
+</aside>
+<footer class="bg-info text-white text-center p-3 mt-5">
+    <p class="small-text">Todos los derechos reservados &copy; 2024 - El Mundo de las Mascotas</p>
+    <p class="small-text">Creado por <strong>Juan Manuel Biehl Alonso</strong></p>
+</footer>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
